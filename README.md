@@ -11,7 +11,7 @@ Welcome to **The GiGantaMax JavaScript CodeBook**—the ultimate repository wher
 I am officially on my villain arc (the good kind) of mastering JavaScript, fueled by the absolute legends over at **Sheryians Coding School**. Learning from **Harsh Sir**, **Sarthak Sir**, and the elite faculty isn't just education—it’s a straight-up blessing. 
 
 > ### 👑 DEDICATION
-> This entire digital empire is strictly dedicated to **Harsh Sir** and the unstoppable **Sheryians Community**. Modern web dev? Yeah, we're conquering that.
+> This entire digital empire is strictly dedicated to **Harsh Sir** and the unstoppable **Sheryians Community**.
 
 ---
 
@@ -29,7 +29,10 @@ I am officially on my villain arc (the good kind) of mastering JavaScript, fuele
 - [x] Level 01: The Basics (Variables, Loops, Functions)
 - [ ] Level 02: Master the DOM (Making things move)
 - [ ] Level 03: Advanced JS (Closures, Promises, Async/Await)
-- [ ] Level 04: The Ultimate Projects 
+- [ ] Level 04: The Ultimate Projects
+- [ ] Project 01: JS Game
+- [ ] Project 02: Kanban Board
+- [ ] Project 03: Image Editor
 
 ---
 
