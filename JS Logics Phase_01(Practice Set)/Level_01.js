@@ -19,13 +19,13 @@ console.log(b);
 
 //Print numbers from 1 to 50 using a loop.
 for(let i = 1; i <= 50 ; i++){
-    // console.log(i);
+    console.log(i);
 }
 
 //Print only multiples of 5 from 1 to 100.
 for(let i = 1; i <= 100 ; i++){
     if (i % 5 === 0){
-        // console.log(i);
+        console.log(i);
     }
 }
 
@@ -43,7 +43,7 @@ let rev = []
 for(let i = 5; i >= 0 ; i++){
     rev = (nums[i]);     
     }
-    // console.log(rev);
+    console.log(rev);
 
 //Find the largest number in
 // [12,45,2,89,34]
