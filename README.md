@@ -1,9 +1,7 @@
 # ⚡ THE GiGANTAMAX JAVASCRIPT CODEBOOK ⚡
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=F7DF1E&center=true&vCenter=true&width=700&lines=⚡+WELCOME+TO+THE+LAB+⚡;🚀+DOMINATING+JAVASCRIPT+FROM+SCRATCH;🔥+POWERED+BY+SHERYIANS+CODING+SCHOOL" alt="Typing SVG" />
-</p>
-
+ 
 ---
 
 ## 🎭 THE ORIGIN STORY
@@ -28,10 +26,10 @@ I am officially on my villain arc (the good kind) of mastering JavaScript, fuele
 
 ## ⚡ REPO ROADMAP
 
-- [x] Level 00: The Basics (Variables, Loops, Functions)
-- [/] Level 01: Master the DOM (Making things move)
-- [ ] Level 02: Advanced JS (Closures, Promises, Async/Await)
-- [ ] Level 03: The Ultimate Projects 
+- [x] Level 01: The Basics (Variables, Loops, Functions)
+- [ ] Level 02: Master the DOM (Making things move)
+- [ ] Level 03: Advanced JS (Closures, Promises, Async/Await)
+- [ ] Level 04: The Ultimate Projects 
 
 ---
 
