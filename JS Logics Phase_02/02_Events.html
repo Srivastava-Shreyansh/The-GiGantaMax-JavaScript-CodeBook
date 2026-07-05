@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Event Handling</title>
+    <style>
+        #nav{
+            width: 100;
+            background-color: darkgray;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            gap: 250px;
+            padding: 12px 40px;
+        }
+        button{
+            background-color: red;
+            color: wheat;
+            border: 2px solid black;
+            padding: 10px;
+        }
+        #nav a{
+            font-size: 20px;
+            padding: 10px;
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        #main2{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            color: whitesmoke;
+            text-align: center;
+            padding-top: 60px;
+            user-select: none;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        .lt{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+            <button>Create Account</button>
+        </div>
+    </div>
+    <h1>SENSEI_SS</h1>
+    <p>(Click on the heading to change its color to red!)☝️</p>
+    <h2>APSJ</h2>
+    <p>(Removed event listener)☝️</p>
+    <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Godi quod iste saepe esse totam, ex dolor tempore tenetur doloribus exercitationem earum? Autem, praesentium.</pre>
+    <p>(Double-Click on the paragraph to change its color to green!)☝️</p>
+    <input type="text" placeholder="Type something here..." id="inputBox">
+    <h3 id="selectedTeam">Who's the GOAT🐐?</h3>
+    <select>
+        <option selected disabled>Please select a team!</option>
+        <option value="Cristiano Ronaldo">Portugal</option>
+        <option value="Lionel Messi">Argentina</option>
+        <option value="Neymar Jr">Brazil</option>
+        <option value="Kylian Mbappé">France</option>
+        <option value="Manuel Neuer">Germany</option>
+    </select>
+    <div id = "main2">
+        Hover your cursor over this box to change it's colour🫵
+    </div>
+    <h1>Delegated Event Handler on To-do List</h1>
+    <h1>Hashira of Demon Slayer: Kimetsu no Yaiba</h3>
+    <pre>Click on the names to cut them and vice versa for normal font!</pre>
+    <ul>
+        <li>Gyomei Himejima</li>
+        <li>Sanemi Shinazugawa</li>
+        <li>Giyu Tomioka</li>
+        <li>Muichiro Tokito</li>
+        <li>Obanai Iguro</li>
+        <li>Kyujuro Rengoku</li>
+        <li>Mitsuri Kanroji</li>
+        <li>Tengen Uzui</li>
+        <li>Shinobu Kocho</li>
+    </ul>
+    <script src="02_Events.js"></script>
+</body>
+
+</html>
