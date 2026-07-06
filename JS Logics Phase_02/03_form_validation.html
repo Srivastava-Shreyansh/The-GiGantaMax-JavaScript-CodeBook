@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms & Form Validation</title>
+    <style>
+        #hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input pattern="[a-z]{0,9}" type="text" id="name" placeholder = "Name">
+        <div id="hide">
+            <br>
+            <small>Characters should be more than 2.</small>
+        </div>
+        <br><br>
+        <input required type="email" placeholder = "Email">
+        <br><br>
+        <input required minlength="4" maxlength="10" type="password" placeholder = "Password">
+        <br><br>
+        <select>
+            <option disabled selected>Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br><br>
+        <textarea required name="info">
+            Tell us about yourself...
+        </textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <script src="03_form_validation.js"></script>
+</body>
+</html>
