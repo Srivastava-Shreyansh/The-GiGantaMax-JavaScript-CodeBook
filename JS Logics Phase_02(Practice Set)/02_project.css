@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.to-do-list {
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* --- Input Area Row Layout --- */
+.input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-area {
+    flex: 1; /* Automatically expands to take remaining space */
+}
+
+#task-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 16px;
+}
+
+#task-input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Square layout next to the input field */
+#btn {
+    width: 48px;
+    height: 46px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+#btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+/* --- List Items Layout --- */
+ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+/* Align text on the left, buttons grouped on the right */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    font-size: 15px;
+    word-wrap: break-word;
+    transition: 0.3s ease;
+}
+
+li:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+/* Target class for complete button */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* --- Action Buttons Layout --- */
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.task-buttons button {
+    border: none;
+    outline: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease-in-out;
+}
+
+/* Translucent green styling */
+.complete-btn {
+    background: rgba(34, 197, 94, 0.4); 
+}
+
+.complete-btn:hover {
+    background: rgba(34, 197, 94, 0.7);
+}
+
+/* Translucent red styling */
+.delete-btn {
+    background: rgba(239, 68, 68, 0.4); 
+}
+
+.delete-btn:hover {
+    background: rgba(239, 68, 68, 0.7);
+}
+
+.lt{
+    text-decoration: line-through;
+    opacity: 0.6;
+    color: #ddd;
+    color: greenyellow;
+}
+
+#main{
+    display: none;
+}
