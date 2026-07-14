@@ -28,7 +28,7 @@ I am officially on my villain arc (the good kind) of mastering JavaScript, fuele
 
 - [x] Level 01: The Basics (Variables, Loops, Functions)
 - [x] Level 02: Master the DOM (Making things move)
-- [ ] Level 03: Advanced JS (Closures, Promises, Async/Await)
+- [x] Level 03: Advanced JS (Closures, Promises, Async/Await)
 - [ ] Level 04: The Ultimate Projects
 - [ ] Project 01: JS Game
 - [ ] Project 02: Kanban Board
