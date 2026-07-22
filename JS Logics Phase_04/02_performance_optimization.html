@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Optimization</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .spacer {
+            height: 600px;
+        }
+
+        .lazy-img {
+            width: 100%;
+            display: block;
+            margin: 30px 0;
+
+            opacity: 0;
+            transform: translateY(40px);
+            filter: blur(8px);
+
+            transition:
+                opacity .6s ease,
+                transform .6s ease,
+                filter .6s ease;
+        }
+
+        .lazy-img.loaded {
+            opacity: 1;
+            transform: translateY(0);
+            filter: blur(0);
+        }
+    </style>
+</head>
+
+<body> <!-- <input type="text" placeholder="Enter text..."> -->
+    <h1>Lazy Loading Images using <i>IntersectionObserver</i></h1>
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic in quisquam libero? Scroll Down to see images
+            load only when they enter the viewport🫵 </p>
+        <div class="spacer"></div> <img
+            data-src="https://images.unsplash.com/photo-1784521271878-fc6622fcc040?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D"
+            class="lazy-img" alt="Image_01">
+        <div class="spacer"></div> <img
+            data-src="https://images.unsplash.com/photo-1784219335652-b5511350865d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMjZ8fHxlbnwwfHx8fHw%3D"
+            class="lazy-img" alt="Image_02">
+        <div class="spacer"></div> <img
+            data-src="https://images.unsplash.com/photo-1784521271878-fc6622fcc040?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNHx8fGVufDB8fHx8fA%3D%3D"
+            class="lazy-img" alt="Image_03">
+        <div class="spacer"></div> <img
+            data-src="https://images.unsplash.com/photo-1784219335652-b5511350865d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMjZ8fHxlbnwwfHx8fHw%3D"
+            class="lazy-img" alt="Image_04">
+    </div>
+
+    <h1>Code Splitter Demo😊☕</h1>
+    <button>Click here!</button>
+    
+    <ul></ul>
+    <script src="02_performance_optimization.js"></script>
+</body>
+
+</html>
